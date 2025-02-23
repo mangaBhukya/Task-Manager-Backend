@@ -61,3 +61,16 @@ export const getTasks = async (req: Request, res: Response) => {
       res.status(500).json({ message:  (error as Error).message });
     }
 }};
+
+
+export const updateTask = async (req: Request, res: Response):Promise<void> => {{
+    try {
+      const { completed } = req.body;
+      const task = await Task.findByIdAndUpdate(req.params.id, { completed }, { new: true });
+      if (!task) res.status(404).json({ message: "Task not found" });
+  
+      res.json(task);
+    } catch (error) {
+      res.status(500).json({ message: (error as Error).message });
+    }
+  }};
