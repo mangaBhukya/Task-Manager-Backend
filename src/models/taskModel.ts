@@ -4,14 +4,14 @@ export interface ITask extends Document {
     _id: Types.ObjectId;
     title: string;
     completed: boolean;
-    isParentId: boolean;
+    parentId: Types.ObjectId;
     subtasks: Types.ObjectId[];
 }
 
 const TaskSchema: Schema = new Schema({
     title: {type: String, require: true},
     completed: {type: Boolean, default: false},
-    isParentId: {type: Boolean, default: false},
+    parentId: {type : mongoose.Schema.Types.ObjectId, ref:"Task"},
     subtasks:[{type : mongoose.Schema.Types.ObjectId, ref:"Task"}],
 });
 
