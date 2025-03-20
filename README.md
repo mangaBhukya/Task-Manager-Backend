@@ -1,6 +1,6 @@
-**Task Management Application**
+# **Task Management Application**
 
-##Tech Stack
+## Tech Stack
 
 - Node.js with Express.js
 - TypeScript
@@ -8,7 +8,7 @@
 - Mongoose for Schema Management
 - CORS for API Access
 
-##Features
+## Features
 
 - Add, Edit, and Delete Tasks
 - Add One Level of Subtasks
@@ -16,22 +16,22 @@
 - Responsive Design with SCSS
 - Simple and Clean UI
 
-##Setup and Installation
-###Prerequisites
+## Setup and Installation
+### Prerequisites
 
 - Node.js installed
 - MongoDB installed and running
 
 
-#Set Up Environment Variables
+# Set Up Environment Variables
 
-##Create a .env file with the following:
+## Create a .env file with the following:
 
 - PORT=5000
 - MONGO_URI=mongodb://localhost:27017/task-manager
 
 
-#Start Backend Server
+# Start Backend Server
 
 - npm run dev
 
