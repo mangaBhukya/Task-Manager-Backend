@@ -12,9 +12,11 @@
 
 - Add, Edit, and Delete Tasks
 - Add One Level of Subtasks
-- Toggle Task Completion
-- Responsive Design with SCSS
-- Simple and Clean UI
+- Toggle Task Completion Status
+- RESTful API with CRUD Operations
+- Node.js with Express.js for API Routing
+- MongoDB for Database Management
+- Error Handling and Input Validation
 
 ## Setup and Installation
 ### Prerequisites
