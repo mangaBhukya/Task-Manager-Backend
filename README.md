@@ -23,15 +23,15 @@
 - MongoDB installed and running
 
 
-# Set Up Environment Variables
+## Set Up Environment Variables
 
-## Create a .env file with the following:
+### Create a .env file with the following:
 
 - PORT=5000
 - MONGO_URI=mongodb://localhost:27017/task-manager
 
 
-# Start Backend Server
+## Start Backend Server
 
 - npm run dev
 
