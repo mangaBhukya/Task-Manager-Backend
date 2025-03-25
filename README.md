@@ -30,7 +30,7 @@
 ### Create a .env file with the following:
 
 - PORT=5000
-- MONGO_URI=mongodb://localhost:27017/task-manager
+- MONGO_URI=your_mongodb_connection_string
 
 
 ## Start Backend Server
